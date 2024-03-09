@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {
+      "name": "MODULE_INTRO",
+      "enHeader": "Welcome",
+      "esHeader": "Welcome(es)",
+      "subModules": ["SUB_EMAIL", "SUB_NAME", "SUB_PASSWORD"],
+      "actions": ["SUBMIT_TO_MAPI", "DO_OTHER_STUFF", "OTHER_ACTION"]
+    },
+    {
+      "name": "MODULE_DEBT",
+      "enHeader": "Debt info goes here",
+      "esHeader": "Debt info goes here(es)",
+      "subModules": ["SUB_DEBT_AMOUNT"],
+      "actions": ["SUBMIT_TO_MAPI", "DO_OTHER_STUFF", "OTHER_ACTION"]
+    }
+  ]
+}

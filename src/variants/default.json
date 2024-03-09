@@ -1,0 +1,25 @@
+{
+  "modules": [
+    {
+      "name": "MODULE_BEGIN",
+      "enHeader": "Welcome",
+      "esHeader": "Welcome(es)",
+      "subModules": ["SUB_EMAIL"],
+      "actions": ["SUBMIT_TO_MAPI", "DO_OTHER_STUFF", "OTHER_ACTION"]
+    },
+    {
+      "name": "MODULE_PERSONAL_INFO",
+      "enHeader": "Personal info goes here",
+      "esHeader": "Personal info goes here(es)",
+      "subModules": ["SUB_NAME", "SUB_PASSWORD"],
+      "actions": ["SUBMIT_TO_MAPI", "DO_OTHER_STUFF", "OTHER_ACTION"]
+    },
+    {
+      "name": "MODULE_DEBT_INFO",
+      "enHeader": "Debt info goes here",
+      "esHeader": "Debt info goes here(es)",
+      "subModules": ["SUB_DEBT_AMOUNT"],
+      "actions": ["SUBMIT_TO_MAPI", "DO_OTHER_STUFF", "OTHER_ACTION"]
+    }
+  ]
+}
